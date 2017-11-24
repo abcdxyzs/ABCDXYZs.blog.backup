@@ -1,0 +1,56 @@
+<footer class="mt-5 pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <strong>Credits</strong>
+        <table class="table table-sm">
+          <tr>
+            <td>Theme by:</td>
+            <td>Szhshp</td>
+          </tr>
+          <tr>
+            <td>Engine:</td>
+            <td>Ruby x Jekyll</td>
+          </tr>
+          </table>
+	  <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+        </div>
+
+        <div class="col-md-6">
+          <strong>Friend Links</strong>
+          <table class="table table-sm">
+            <tr>
+              <td><a href="http://www.cnblogs.com/abcdxyznoip"> ABCDXYZ</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>  
+   
+    <!--search engine-->
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/search/css/cb-search.css">
+
+	<div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right: 0px;
+		  opacity: 0.95; background-color: #000; z-index: 9999; display: none;">
+		<input type="text" class="form-control cb-search-content" id="cb-search-content" 
+			style="position: fixed; top: 60px; " placeholder="Search for titles or tags..." >
+
+		<div style="position: fixed; top: 30px; right: 260px;">
+		    <a class="btn btn-group-vertical btn-sm" id="cb-close-btn">
+				<i class="fa fa-close" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div>
+
+	
+	<script src="{{site.url}}{{site.baseurl}}/search/js/bootstrap3-typeahead.min.js"></script>
+	<script src="{{site.url}}{{site.baseurl}}/search/js/cb-search.js"></script>
+
+  </footer>
+  
+<!--player-->
+<!--
+<embed src="http://www.xiami.com/widget/0_2096838/singlePlayer.swf" 
+	type="application/x-shockwave-flash" width="252" height="33" wmode="transparent" style="position: fixed; bottom: 0; left: 30px; opacity: 0.5;"></embed>
+-->
+  

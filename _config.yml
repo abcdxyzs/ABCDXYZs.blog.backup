@@ -1,0 +1,32 @@
+paginate: 5
+paginate_path: "page:num"
+
+# Site settings
+title: ABCDXYZ
+email: 2249687561@qq.com
+description: > # this means to ignore newlines until "baseurl:"
+    Nice to meet you!
+baseurl: "/" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
+
+# User setting
+owner: ABCDXYZ
+email: 2249684561@qq.com
+facebook_username:
+twitter_username:
+github_username: blogsabcdxyz
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here 
+telephone:
+copyright: ABCDXYZ
+# API settings
+google_api_key:
+
+# Build settings
+gems: [jekyll-paginate]
+
+markdown: kramdown
+encoding: UTF-8
+# toc_levels: 1..2
