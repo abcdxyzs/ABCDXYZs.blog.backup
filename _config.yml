@@ -14,7 +14,7 @@ owner: ABCDXYZ
 email: 2249684561@qq.com
 facebook_username:
 twitter_username:
-github_username: blogsabcdxyz
+github_username: ABCDXYZss
 address:
   - line:
   - line:
@@ -27,6 +27,6 @@ google_api_key:
 # Build settings
 gems: [jekyll-paginate]
 
-markdown: kramdown
+markdown: markdown
 encoding: UTF-8
 # toc_levels: 1..2

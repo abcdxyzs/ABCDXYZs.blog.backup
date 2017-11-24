@@ -9,8 +9,8 @@ intro: Hello World
 
 Welcome to ABCDXYZ's Home
 
-{% highlight c %}
+```cpp
 
 puts("Hello World");
 
-{% endhighlight %}
+```
