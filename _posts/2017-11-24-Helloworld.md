@@ -10,7 +10,5 @@ intro: Hello World
 Welcome to ABCDXYZ's Home
 
 ```cpp
-
 puts("Hello World");
-
 ```
