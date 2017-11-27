@@ -1,13 +1,3 @@
-<style>
-	a.navbartext{
-		cursor: pointer; 
-		color: gray;
-	}
-
-	a.navbartext:hover{
-		color: #000000;
-	}
-</style>
 <!-- Toggle Button -->
  <a href="#menu-toggle" class="btn btn-group-vertical btn-sm toggled" id="menu-toggle">
      <i class="fa fa-bars" aria-hidden="true"></i>
@@ -17,6 +7,8 @@
     <nav class="nav nav-pills flex-sm-row p-3 justify-content-center">
 		<li class="nav-item">
 			<a class="flex-sm-fill text-sm-center nav-link active" href="#sidebar-home-content" data-toggle="tab" role="tab" id="home">Home</a>
+			<a class="flex-sm-fill text-sm-center nav-link hidden-xl-down" href="#sidebar-toc-content" data-toggle="tab" role="tab" id="toc">Toc</a>
+			<a class="flex-sm-fill text-sm-center nav-link active" href="#Gym-sidebar-home-content" data-toggle="tab" role="tab" id="home">Home</a>
 			<a class="flex-sm-fill text-sm-center nav-link hidden-xl-down" href="#sidebar-toc-content" data-toggle="tab" role="tab" id="toc">Toc</a>
 		</li>
 	</nav>
@@ -28,6 +20,14 @@
 				<p class="text-white">Nice to meet you.</p>
 			</div>
 			{% include nav-links.html %}
+        </div>
+		<div class="tab-pane text-sm-center active" id="Gym-sidebar-home-content" >
+            <img class="site-author-image m-2" itemprop="image" src="https://avatars2.githubusercontent.com/u/33896680?s=400&u=6c4f09c03d4811fda158ba4a36e68fc02839e495&v=4">
+			<div style="line-height: 5px; padding-top: 5px;">
+				<p class="text-warning">ABCDXYZ</p>
+				<p class="text-white">Nice to meet you.</p>
+			</div>
+			{% include Gym-nav-links.html %}
         </div>
         <div class="tab-pane fade text-sm-left" id="sidebar-toc-content">
         </div>
